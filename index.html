@@ -1,110 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Katini Mambea | Data Scientist</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div>
-    <header>  <P><H1>My Portfolio</H1></P>
+    <header>
         <nav>
-            <a href="https://katini01.github.io/About/">Home</a>
-            <a href="https://katini01.github.io/About/">About</a>
-            <a href="https://katini01.github.io/Personal-Portfolio/">Projects</a>
-            <a href="#">Contact</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-     </header>
-    </div>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-size: contain;
-            background-attachment: fixed;
-            background-image: url(Background0.jpg);
-            background-color: white;
-            background-repeat: no-repeat;
-        }
-    
-        
-        .container {
-            max-width: 100%;
-            margin-left: 600px;
-            padding: 0 20px;
-            text-align: calc(50% - 12px);     
-            text-size-adjust: 3px;
-           }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        strong {
-            font-weight: bold;
-        }
-        footer {
-    background-color:black;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    align-item: center;
-    text-decoration-color: white;
-            
-        }
-        header {
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-nav {
-    margin-left: 600px;
-    padding: 10px 0;
-    text-align: end;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Hello!</h1>
-        
-        <p>Hello! I'm a dedicated and enthusiastic cybersecurity student with a passion for understanding and solving complex security challenges. My interest in cybersecurity stems from my fascination with technology and the critical role it plays in our daily lives.</p>
+    </header>
 
-        <h2>Skills and Expertise</h2>
-        <ul>
-            <li><strong>Network Security</strong>: Proficient in implementing security measures to protect data, software, and hardware.</li>
-            <li><strong>Threat Analysis</strong>: Skilled in identifying potential threats and vulnerabilities in systems and networks.</li>
-            <li><strong>Cryptography</strong>: Knowledgeable in the use of codes to protect information from unauthorized access.</li>
-            <li><strong>Incident Response</strong>: Capable of effectively responding to security breaches or incidents.</li>
-        </ul>
+    <section class="hero">
+        <h1>Katini Mambea</h1>
+        <h2>Data Scientist</h2>
+    </section>
 
-        <p>Throughout my academic journey, I've had the opportunity to work on several cybersecurity projects, allowing me to apply my theoretical knowledge to real-world problems. I'm always eager to learn more and take on new challenges in the field of cybersecurity.</p>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a data science enthusiast with a passion for transforming complex data into actionable insights. With a strong foundation in statistics, machine learning, and data visualization, I enjoy solving real-world problems using data-driven approaches. Skilled in tools like Python, SQL, and Power BI, I thrive on uncovering patterns and building predictive models that support strategic decision-making. Whether it's cleaning messy data, crafting compelling dashboards, or optimizing algorithms, I'm driven by curiosity and a commitment to continuous learning.</p>
+    </section>
 
-        <p>I believe in the importance of protecting digital information and systems, and I'm committed to using my skills to contribute to safer digital environments. Feel free to explore my projects and get in touch if you're interested in my work.</p>
-    </div>
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <span>Python <span>90%</span></span>
+            <div class="skill-bar">
+                <div class="skill-level python" data-percent="90%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>SQL <span>80%</span></span>
+            <div class="skill-bar">
+                <div class="skill-level sql" data-percent="80%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>Machine Learning <span>85%</span></span>
+            <div class="skill-bar">
+                <div class="skill-level ml" data-percent="85%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>Data Visualization <span>75%</span></span>
+            <div class="skill-bar">
+                <div class="skill-level dv" data-percent="75%"></div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <h2>Contact Information</h2>
-    <Ul>cjoetech@gmail.com</Ul>
-    <Ul>+254759981302</Ul>
-</footer></div>
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+            <div class="project-item">
+                <h3>📊 Data Visualization Dashboard</h3>
+                <p>Designed and developed an interactive dashboard to visualize key performance indicators.</p>
+                <p><strong>Tools & Technologies:</strong><br/>
+                Power BI, Tableau, Python (Matplotlib, Seaborn, Plotly, Dash), Excel, Google Sheets.</p>
+                <p>Enabled stakeholders to explore trends, patterns, and anomalies for data-driven decision-making.</p>
+                <p><em>Example:</em> Visualized sales trends, customer demographics, and regional performance metrics.</p>
+            </div>
+            <div class="project-item">
+                <h3>🤖 Machine Learning Model</h3>
+                <p>Built and deployed a machine learning model to analyze data and generate predictions.</p>
+                <p><strong>Tools & Technologies:</strong><br/>
+                Python (scikit-learn, pandas, NumPy), Jupyter Notebook, SQL, Excel.</p>
+                <p>Performed data preprocessing, feature engineering, and trained algorithms like logistic regression, decision trees, random forests, and support vector machines (SVM).</p>
+                <p>Evaluated and optimized model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.</p>
+                <p><em>Example:</em> Predicted customer churn based on transaction history and engagement behavior.</p>
+            </div>
+            <div class="project-item">
+                <h3>🔮 Predictive Analytics</h3>
+                <p>Conducted predictive analytics to forecast future outcomes and support strategic planning.</p>
+                <p><strong>Tools & Technologies:</strong><br/>
+                Python (statsmodels, Prophet, scikit-learn), SQL, Excel, Power BI, Tableau.</p>
+                <p>Applied techniques such as time-series forecasting, regression modeling, and classification to historical datasets.</p>
+                <p>Delivered actionable insights through accurate forecasts, improving operational efficiency.</p>
+                <p><em>Example:</em> Forecasted monthly sales to guide inventory management and resource allocation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: katinimambea@gmail.com</p>
+        <p>Phone: +254799581352</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Katini Mambea</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
